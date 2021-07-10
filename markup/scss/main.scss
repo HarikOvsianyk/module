@@ -1,3 +1,18 @@
 @import 'libs/norm';
+@import 'libs/font';
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 @import 'base/variables';
 @import 'base/extend';
+
+* {
+    font-family: Open Sans;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@import "blocks/header";
