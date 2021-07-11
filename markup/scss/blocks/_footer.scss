@@ -1,12 +1,22 @@
 .footer__wrapper {
-    padding-top: 100px;
+    padding-top: 20px;
     padding-bottom: 104px;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+
+    @media (min-width: 768px) {
+        padding-top: 100px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 .block {
-    width: 40%;
+    width: 100%;
 
+    @media (min-width: 768px) {
+        width: 40%;
+    }
     &__header {
         font-family: 'Open Sans';
         font-size: $block-h-fs;
@@ -17,20 +27,44 @@
     }
 
     &__descr {
-        margin-top: 61px;
+        margin-top: 21px;
+        padding-bottom: 20px;
         font-family: 'Open Sans';
         font-size: $block-d-fs;
         line-height: $block-d-lh;
         font-weight: $block-d-fw;
         color: $block-header-color;
+
+        @media (min-width: 768px) {
+            margin-top: 61px;
+        }
     }
     &__links {
-        padding-top: 71px;
+        padding-top: 30px;
         display: flex;
+
+        @media (min-width: 768px) {
+            padding-top: 71px;
+        }
     }
 
     &__link {
         padding-right: 17px;
+    }
+}
+.block:nth-child(2) {
+    display: none;
+}
+.block:nth-child(3) {
+    display: none;
+}
+
+@media (min-width: 425px) {
+    .block:nth-child(2) {
+        display: block;
+    }
+    .block:nth-child(3) {
+        display: block;
     }
 }
 .contacts {
@@ -41,8 +75,6 @@
     &__item {
         width: 50%;
         display: flex;
-    }
-    &__item:nth-child(1) {
         padding-bottom: 20px;
     }
     &__logo {
@@ -59,15 +91,24 @@
 }
 
 .rights {
-    height: 100px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media (min-width:425px) {
+        height: 100px;
+    }
     &__descr {
+        display: none;
         font-family: 'Myriad Pro';
         font-size: $rights-fs;
         line-height: $rights-lh;
         font-weight: $rights-fw;
         color: $rights-color;
+
+        @media (min-width:425px) {
+            display: block;
+        }
     }
 }
