@@ -15,7 +15,7 @@
     width: 100%;
 
     @media (min-width: 768px) {
-        width: 40%;
+        width: 50%;
     }
     &__header {
         font-family: 'Open Sans';
@@ -27,8 +27,10 @@
     }
 
     &__descr {
+        width: 100%;
         margin-top: 21px;
         padding-bottom: 20px;
+        text-align: justify;
         font-family: 'Open Sans';
         font-size: $block-d-fs;
         line-height: $block-d-lh;
@@ -37,6 +39,7 @@
 
         @media (min-width: 768px) {
             margin-top: 61px;
+            width: 80%;
         }
     }
     &__links {
@@ -68,10 +71,14 @@
     }
 }
 .contacts {
-    margin-top: 61px;
+    margin-top: 21px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @media (min-width: 768px) {
+        margin-top: 61px;
+    }
     &__item {
         width: 50%;
         display: flex;
