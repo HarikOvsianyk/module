@@ -1,0 +1,73 @@
+.footer__wrapper {
+    padding-top: 100px;
+    padding-bottom: 104px;
+    display: flex;
+    justify-content: space-between;
+}
+.block {
+    width: 40%;
+
+    &__header {
+        font-family: 'Open Sans';
+        font-size: $block-h-fs;
+        line-height: $block-h-lh;
+        font-weight: $block-h-fw;
+        text-transform: $block-h-tt;
+        color: $block-header-color; 
+    }
+
+    &__descr {
+        margin-top: 61px;
+        font-family: 'Open Sans';
+        font-size: $block-d-fs;
+        line-height: $block-d-lh;
+        font-weight: $block-d-fw;
+        color: $block-header-color;
+    }
+    &__links {
+        padding-top: 71px;
+        display: flex;
+    }
+
+    &__link {
+        padding-right: 17px;
+    }
+}
+.contacts {
+    margin-top: 61px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &__item {
+        width: 50%;
+        display: flex;
+    }
+    &__item:nth-child(1) {
+        padding-bottom: 20px;
+    }
+    &__logo {
+        padding-right: 20px;
+    }
+    &__descr {
+        text-align: left;
+        font-family: 'Open Sans';
+        font-size: $block-d-fs;
+        line-height: $block-d-lh;
+        font-weight: $block-d-fw;
+        color: $block-header-color;
+    }
+}
+
+.rights {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__descr {
+        font-family: 'Myriad Pro';
+        font-size: $rights-fs;
+        line-height: $rights-lh;
+        font-weight: $rights-fw;
+        color: $rights-color;
+    }
+}

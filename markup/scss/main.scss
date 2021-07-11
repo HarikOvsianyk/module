@@ -6,6 +6,8 @@
 
 * {
     font-family: Open Sans;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -26,4 +28,5 @@ body {
     padding-right: 15px;
 }
 
-@import "blocks/header";
+@import 'blocks/header';
+@import 'blocks/footer';
