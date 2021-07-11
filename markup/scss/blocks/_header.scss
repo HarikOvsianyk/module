@@ -1,20 +1,48 @@
+/* header {
+    overflow: hidden;
+} */
+
+@import 'burger';
+
 .header__wrapper {
+    position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
 }
 
 .navigation {
     &__list {
         @extend %listreset;
         display: flex;
+        flex-direction: column;
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        right: 0;
+        transform: translateX(100%);
+        transition: transform 1s;
+
+        @media (min-width: 768px) {
+            position: relative;
+            width: auto;
+            flex-direction: row;
+            transform: translateX(0);
+        }
     }
     &__item {
-        padding-right: 26px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+
+        @media (min-width: 768px) {
+            padding-right: 26px;
+            padding-bottom: 0px;
+        }
     }
 
     &__item:last-of-type {
-        padding-right: 0;
+        padding-right: 0px;
+        padding-bottom: 0px;
     }
 
     &__link {
