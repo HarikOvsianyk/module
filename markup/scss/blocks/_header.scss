@@ -5,6 +5,7 @@
 @import 'burger';
 
 .header__wrapper {
+    height: 100px;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -17,10 +18,11 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        width: 100%;
+        background: $block-header-color;
+        width: 321px;
         top: 100%;
         right: 0;
-        transform: translateX(100%);
+        transform: translateX(120%);
         transition: transform 1s;
 
         @media (min-width: 768px) {

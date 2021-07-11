@@ -1,0 +1,19 @@
+.base {
+    width: 100%;
+    min-height: 600px;
+    &__form {
+        width: 50%;
+        min-height: 600px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+.form {
+    min-width: 300px;
+    min-height: 391px;
+    background-color: $form-color;
+    box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.15);
+    border-radius: 20px;
+}
