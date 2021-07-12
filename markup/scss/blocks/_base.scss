@@ -1,11 +1,25 @@
 @import 'form';
 
 .base {
+    position: relative;
     width: 100%;
     min-height: 600px;
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background:$blue;
+        opacity: 0.8;
+        z-index: 1;
+    }
     &__wrapper {
+        position: relative;
         display: flex;
         flex-direction: column;
+        z-index: 2;
         @media (min-width: 768px) {
             flex-direction: row;
         }

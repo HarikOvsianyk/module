@@ -3,6 +3,8 @@ $white: #ffffff;
 $white-1: #f2f2f2;
 $dark-grey: #555555;
 $lite-grey:#888888; 
+$grey-1: #777777;
+$grey-2:#999999;
 $blue:#5363db;
 $blue-1: #5b6ceb;
 $lite-blue: #b7bffc;
@@ -22,6 +24,8 @@ $form-btn-bg: $blue-1;
 $form-btn-color: $white;
 $base-title-color: $white;
 $base-text-color: $white;
+$title-1-color: $blue;
+$descr-1-color: $grey-1;
 $footer-span: $white;
 
 
@@ -59,6 +63,25 @@ $base-d-fs: 40px;
 $base-d-lh: 1.2;
 $base-d-fw: 400;
 
+//title-1 
+$title-1-fs: 30px;
+$title-1-lh: 45px;
+$title-1-fw: 700;
+
+//descr-1
+$descr-1-fs: 41px;
+$descr-1-lh: 61px;
+$descr-1-fw: 400;
+
+//card
+//header
+$card-h-fs:20px;
+$card-h-lh:45px;
+$card-h-fw:700;
+//descr 
+$card-d-fs: 14px;
+$card-d-lh: 22px;
+$card-d-fw: 400;
 
 //footer block
 //header
