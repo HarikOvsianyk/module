@@ -53,6 +53,7 @@
 
     &__link {
         padding-right: 17px;
+        text-decoration: none;
     }
 }
 .block:nth-child(2) {
@@ -118,4 +119,9 @@
             display: block;
         }
     }
+}
+
+span {
+    color: $footer-span;
+    font-size: 20px;
 }

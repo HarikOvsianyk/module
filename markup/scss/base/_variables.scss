@@ -1,16 +1,63 @@
 //colors
-$a-color: #555555;
-$a-color-hover: #5363db;
-$block-header-color: #ffffff;
-$rights-color: #b7bffc;
-$form-color: #ffffff;
+$white: #ffffff;
+$white-1: #f2f2f2;
+$dark-grey: #555555;
+$lite-grey:#888888; 
+$blue:#5363db;
+$blue-1: #5b6ceb;
+$lite-blue: #b7bffc;
 
 
-//fonts 
+
+//variables colors
+$a-color: $dark-grey;
+$a-color-hover: $blue;
+$block-header-color: $white;
+$rights-color: $lite-blue;
+$form-color: $white;
+$form-title-color: $blue;
+$form-input-bg: $white-1;
+$form-input-color: $lite-grey;
+$form-btn-bg: $blue-1;
+$form-btn-color: $white;
+$base-title-color: $white;
+$base-text-color: $white;
+$footer-span: $white;
+
+
+//fonts
+$ff-1: 'Open Sans';
+$ff-2: 'FREESCPT';
 //header link
 $link-fs: 14px;
 $link-lh: 1.2;
 $link-fw: 600;
+
+//base
+//form
+//title
+$form-t-fs: 25.7px;
+$form-t-lh: 1.2;
+$form-t-fw: 600;
+//input
+$form-i-fs: 14px;
+$form-i-lh: 1.2;
+$form-i-fw: 400;
+//button
+$form-b-fs: 16px;
+$form-b-lh: 1.2;
+$form-b-fw: 700;
+
+//descr
+//title
+$base-t-fs: 48px;
+$base-t-lh: 72px;
+$base-t-fw: 700;
+//text 
+$base-d-fs: 40px;
+$base-d-lh: 1.2;
+$base-d-fw: 400;
+
 
 //footer block
 //header
@@ -18,12 +65,10 @@ $block-h-fs: 18px;
 $block-h-lh: 22px;
 $block-h-fw: 700;
 $block-h-tt: uppercase;
-
 //descr 
 $block-d-fs: 14px;
 $block-d-lh: 22px;
 $block-d-fw: 400;
-
 //footer rights
 $rights-fs: 16px;
 $rights-lh: 22px;

@@ -1,78 +1,47 @@
+@import 'form';
+
 .base {
     width: 100%;
     min-height: 600px;
+    &__wrapper {
+        display: flex;
+    }
     &__form {
+        padding-right: 45px;
         width: 50%;
         min-height: 600px;
         display: flex;
         justify-content: flex-end;
         align-items: center;
     }
-}
 
-.form {
-    display: flex;
-    flex-direction: column;
-    min-width: 300px;
-    min-height: 391px;
-    padding: 40px 30px 35px 30px;
-    background-color: $form-color;
-    box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.15);
-    border-radius: 20px;
+    &__descr {
+        padding-left: 45px;
+        width: 50%;
+        min-height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
     &__title {
-        margin-bottom: 31px;
-        font-family: 'Open Sans';
-        font-size: 25.7px;
-        line-height: 1.2;
-        font-weight: 600;
-        color: #5363db;
+        margin: 0;
+        font-family: $ff-1;
+        font-size: $base-t-fs;
+        line-height: $base-t-lh;
+        font-weight: $base-t-fw;
+        text-transform: uppercase;
+        color: $base-title-color;
     }
 
-    &__input {
-        min-height: 50px;
-        margin-bottom: 17px;
-        background:#f2f2f2;
-        border: none;
-        border-radius: 10px;
-        &::placeholder {
-            padding-left: 10px;
-            font-family: 'Open Sans';
-            font-size: 14px;
-            line-height: 1.2;
-            font-weight: 400;
-            color: #888888;
-        }
-    }
-
-    &__select {
-        min-height: 50px;
-        background:#f2f2f2;
-        border: none;
-        border-radius: 10px;
-        padding-left: 10px;
-        font-family: 'Open Sans';
-        font-size: 14px;
-        line-height: 1.2;
-        font-weight: 400;
-        color: #888888;
-    }
-
-    &__btn {
-        float: right;
-        max-width: 170px;
-        min-height: 50px;
-        margin-top: 31px;
-        margin-left: 70px;
-        background-color: #5b6ceb;
-        border: none;
-        border-radius: 10px;
-        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.15);
-        font-family: 'Open Sans';
-        font-size: 16px;
-        line-height: 1.2;
-        font-weight: 700;
-        color: #ffffff;
+    &__text {
+        margin-top: 51px;
+        font-family: $ff-2;
+        font-size: $base-d-fs;
+        line-height: $base-d-lh;
+        font-weight: $base-d-fw;
+        color: $base-text-color;
     }
 }
+
 

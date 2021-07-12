@@ -1,0 +1,65 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    min-height: 391px;
+    padding: 40px 30px 35px 30px;
+    background-color: $form-color;
+    box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.15);
+    border-radius: 20px;
+
+    &__title {
+        margin-bottom: 31px;
+        font-family: $ff-1;
+        font-size: $form-t-fs;
+        line-height: $form-t-lh;
+        font-weight: $form-t-fw;
+        color: $form-title-color;
+    }
+
+    &__input {
+        min-height: 50px;
+        margin-bottom: 17px;
+        background:$form-input-bg;
+        border: none;
+        border-radius: 10px;
+        &::placeholder {
+            padding-left: 10px;
+            font-family: $ff-1;
+            font-size: $form-i-fs;
+            line-height: $form-i-lh;
+            font-weight: $form-i-fw;
+            color: $form-input-color;
+        }
+    }
+
+    &__select {
+        min-height: 50px;
+        background:$form-input-bg;
+        border: none;
+        border-radius: 10px;
+        padding-left: 10px;
+        font-family: $ff-1;
+        font-size: $form-i-fs;
+        line-height: $form-i-lh;
+        font-weight: $form-i-fw;
+        color: $form-input-color;
+    }
+
+    &__btn {
+        float: right;
+        max-width: 170px;
+        min-height: 50px;
+        margin-top: 31px;
+        margin-left: 70px;
+        background-color: $form-btn-bg;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.15);
+        font-family: $ff-1;
+        font-size: $form-b-fs;
+        line-height: $form-b-lh;
+        font-weight: $form-b-fw;
+        color: $form-btn-color;
+    }
+}
