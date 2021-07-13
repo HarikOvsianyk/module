@@ -24,6 +24,7 @@
         right: 0;
         transform: translateX(120%);
         transition: transform 1s;
+        z-index: 4;
 
         @media (min-width: 768px) {
             position: relative;
@@ -44,7 +45,6 @@
 
     &__item:last-of-type {
         padding-right: 0px;
-        padding-bottom: 0px;
     }
 
     &__link {

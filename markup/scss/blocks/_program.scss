@@ -4,8 +4,12 @@
 .program {
     width: 100%;
     &__title {
-        margin-top: 125px;
+        margin-top: 25px;
         text-align: center;
+
+        @media (min-width: 425px) {
+            margin-top: 125px;
+        }
     }
 
     &__descr {
@@ -14,12 +18,36 @@
     }
 }
 
+.cardsmt76 {
+    margin-top: 26px;
+    @media (min-width: 425px) {
+        margin-top: 76px;
+    }
+}
+
 .card {
     position: relative;
     &__img-wrap {
         position: relative;
         width: 100%;
-        padding-top: 60%;
+        padding-top: 95%;
+
+        @media (min-width: 576px) {
+            padding-top: 152%;
+        }
+
+        @media (min-width: 768px) {
+            padding-top: 86%;
+        }
+
+        @media (min-width: 992px) {
+            padding-top: 50%;
+        }
+    }
+    &__body {
+        padding-left: 18px;
+        position: relative;
+        width: 100%;
     }
     &__img {
         position: absolute;
@@ -29,6 +57,7 @@
         max-width: none;
         width: 100%;
         height: 100%;
+        border-radius: 20px;
     }
     &__header {
         font-family: $ff-1;
@@ -37,6 +66,14 @@
         font-weight: $card-h-fw;
         text-transform: uppercase;
         color: $grey-1;
+
+        @media (min-width: 425px) {
+            line-height: $card-h-lh-425;
+        }
+
+        @media (min-width: 992px) {
+            line-height: $card-h-lh-992;
+        }
     }
 
     &__descr {
@@ -48,6 +85,8 @@
     }
 
     &__link {
+        display: block;
+        margin-top: 12px;
         font-family: $ff-1;
         font-size: $card-d-fs;
         line-height: $card-d-lh;
