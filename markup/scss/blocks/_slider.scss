@@ -1,0 +1,33 @@
+.swiper-button-prev,
+.swiper-button-next {
+    background: $white;
+    color: $blue;
+    padding: 30px;
+    border-radius: 100px;
+}
+
+.swiper-button-prev {
+    margin-left: -28px;
+}
+
+.swiper-button-next {
+    margin-right: -28px;
+}
+
+.swiper-slide {
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-top: 50%;
+    @media (min-width:576px) {
+        padding-top: 150%;
+    }
+    @media (min-width:768px) {
+        padding-top: 82%;
+    }
+
+    @media (min-width: 992px) {
+        padding-top: 55%;
+    }
+}
