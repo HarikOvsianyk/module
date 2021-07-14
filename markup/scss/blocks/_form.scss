@@ -61,5 +61,8 @@
         line-height: $form-b-lh;
         font-weight: $form-b-fw;
         color: $form-btn-color;
+        &:hover {
+            cursor: pointer;
+        }
     }
 }

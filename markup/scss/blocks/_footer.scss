@@ -52,8 +52,13 @@
     }
 
     &__link {
-        padding-right: 17px;
+        margin-right: 17px;
         text-decoration: none;
+        border-radius: 100%;
+        transition: all .5s;
+        &:hover {
+            box-shadow: 0 0 20px $white;
+        }
     }
 }
 .block:nth-child(2) {
@@ -124,4 +129,13 @@
 span {
     color: $footer-span;
     font-size: 20px;
+}
+
+.descr-link {
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-size: $block-d-fs;
+    line-height: $block-d-lh;
+    font-weight: $block-d-fw;
+    color: $block-header-color;
 }
