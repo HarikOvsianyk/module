@@ -27,35 +27,41 @@
     &__title {
         color: $white;
         padding-bottom: 50px;
+        font-family: $ff-1;
+        font-size: $shop-t-fs;
+        line-height: $shop-t-lh;
+        font-weight: $shop-t-fw;
+        text-transform: $shop-t-tt;
+        color: $white;
     }
 
     &__sup {
         margin-right: 20px;
-        font-family: 'Open Sans';
-        font-size: 32px;
-        line-height: 36px;
-        font-weight: 700;
-        text-transform: uppercase;
-        color: #ffffff;
+        font-family: $ff-1;
+        font-size: $shop-sup-fs;
+        line-height: $shop-sup-lh;
+        font-weight: $shop-sup-fw;
+        text-transform: $shop-t-tt;
+        color: $white;
     }
 
     &__span {
         margin-top: 50px;
-        font-family: 'Open Sans';
-        font-size: 67.4px;
-        line-height: 75px;
-        font-weight: 700;
-        text-transform: uppercase;
-        color: #ffffff;
+        font-family: $ff-1;
+        font-size: $shop-span-fs;
+        line-height: $shop-span-lh;
+        font-weight: $shop-span-fw;
+        text-transform: $shop-t-tt;
+        color: $white;
     }
 
     &__descr {
         margin-top: 50px;
-        font-family: 'Open Sans';
-        font-size: 18px;
-        line-height: 24px;
-        font-weight: 400;
-        color: #555555;
+        font-family: $ff-1;
+        font-size: $shop-descr-fs;
+        line-height: $shop-descr-lh;
+        font-weight: $shop-descr-fw;
+        color: $dark-grey;
     }
 
     &__link {
@@ -63,6 +69,10 @@
         margin-bottom: 51px;
         color: $white;
         background: $blue-1;
+        font-family: $ff-1;
+        font-size: $shop-descr-fs;
+        line-height: $shop-descr-lh;
+        font-weight: 600;
         padding: 17px 49px 16px 48px;
         border-radius: 20px;
         text-decoration: none;

@@ -22,19 +22,19 @@
                         <input id="opener-menu"  type="checkbox">
                         <label class="opener-menu" for="opener-menu"><span></span></label>
                         <ul class="navigation__list">
-                            <li class="navigation__item"><a href="#" class="navigation__link">About us</a></li>
-                            <li class="navigation__item"><a href="#" class="navigation__link">Reservation</a></li>
-                            <li class="navigation__item"><a href="#" class="navigation__link">Gallery</a></li>
-                            <li class="navigation__item"><a href="#" class="navigation__link">Blog</a></li>
-                            <li class="navigation__item"><a href="#" class="navigation__link">Elements</a></li>
-                            <li class="navigation__item"><a href="#" class="navigation__link">Shop</a></li>
+                            <li class="navigation__item"><a href="#about" class="navigation__link">About us</a></li>
+                            <li class="navigation__item"><a href="#base" class="navigation__link">Reservation</a></li>
+                            <li class="navigation__item"><a href="#gallery" class="navigation__link">Gallery</a></li>
+                            <li class="navigation__item"><a href="#program" class="navigation__link">Blog</a></li>
+                            <li class="navigation__item"><a href="#elements" class="navigation__link">Elements</a></li>
+                            <li class="navigation__item"><a href="#shop" class="navigation__link">Shop</a></li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </header>
         <main>
-            <div class="base" style="background: url('./images/bg-01.jpg');
+            <div class="base" id="base" style="background: url('./images/bg-01.jpg');
                 background-size: cover;
                 background-position: 50%;
                 background-repeat: no-repeat;">
@@ -63,7 +63,7 @@
                     </div>
                 </div>
             </div>
-            <div class="program">
+            <div class="program" id="program">
                 <div class="container">
                     <h2 class="title-1 program__title">Yoga Feature Program</h2>
                     <p class="descr-1 program__descr">Our Classes</p>
@@ -119,7 +119,7 @@
                     </div>
                 </div>
             </div>
-            <div class="gallery">
+            <div class="gallery" id="gallery">
                 <div class="cards">
                     <div class="cards__item cards__item-fb25">
                         <div class="card__img-wrap card__img-wrap__pa">
@@ -171,7 +171,7 @@
                     </div>
                 </div>
             </div>
-            <div class="about">
+            <div class="about" id="about">
                 <div class="container">
                     <div class="about__wrapper">
                         <div class="about__descr">
@@ -198,9 +198,12 @@
                     </div>
                 </div>
             </div>
-            <div class="elements" style="background-color:#5b6ceb;">
+            <div class="elements" id="elements" style="background: url('./images/bg-02.jpg');
+                                        background-size: cover;
+                                        background-position: 50%;
+                                        background-repeat: no-repeat;">
                 <div class="container">
-                    <div class="cards">
+                    <div class="cards elements__cards">
                         <div class="cards__item element-item">
                             <div class="card element-card">
                                 <img class="element-img" src="images/ico-01.png" alt="#" >
@@ -260,7 +263,7 @@
                     </div>
                 </div>
             </div>
-            <div class="shop" style="background: url('./images/bg-03.jpg');
+            <div class="shop" id="shop" style="background: url('./images/bg-03.jpg');
                                     background-size: cover;
                                     background-position: 50%;
                                     background-repeat: no-repeat;">
