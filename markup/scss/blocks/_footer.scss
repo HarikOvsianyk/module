@@ -6,7 +6,7 @@
     flex-direction: column;
 
     @media (min-width: 768px) {
-        padding-top: 100px;
+        padding-top: 94px;
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -38,7 +38,7 @@
         color: $block-header-color;
 
         @media (min-width: 768px) {
-            margin-top: 61px;
+            margin-top: 52px;
             width: 80%;
         }
     }
@@ -47,7 +47,7 @@
         display: flex;
 
         @media (min-width: 768px) {
-            padding-top: 71px;
+            padding-top: 7px;
         }
     }
 
@@ -78,17 +78,18 @@
 }
 .contacts {
     margin-top: 21px;
+    padding-left: 11px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
     @media (min-width: 768px) {
-        margin-top: 61px;
+        margin-top: 51px;
     }
     &__item {
         width: 50%;
         display: flex;
-        padding-bottom: 20px;
+        padding-bottom: 41px;
     }
     &__logo {
         padding-right: 20px;

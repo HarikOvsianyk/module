@@ -44,13 +44,17 @@
         min-height: 450px;
         display: flex;
         flex-direction: column;
-
+        justify-content: center;
 
         @media (min-width: 768px) {
             padding-left: 45px;
             width: 50%;
             min-height: 400px;
-            justify-content: center;
+        }
+
+        @media (min-width: 1400px) {
+            padding-top: 155px;
+            justify-content: start;
         }
     }
 
@@ -84,6 +88,10 @@
         @media (min-width:768px) {
             text-align: left;
             margin-top: 51px;
+        }
+
+        @media (min-width:1400px) {
+            margin-top: 26px;
         }
     }
 }

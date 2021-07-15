@@ -24,11 +24,19 @@
     }
     &__title {
         margin-top: 25px;
+
+        @media (min-width:1400px) {
+            margin-top: 16px;
+        }
     }
     &__text {
         margin-top: 10px;
         @media (min-width:992px) {
             margin-top: 30px;
+        }
+
+        @media (min-width:1400px) {
+            margin-top: -9px;
         }
     }
     &__slider {
@@ -42,7 +50,7 @@
         }
 
         @media (min-width: 1200px) {
-            padding-left: 70px;
+            padding-left: 44px;
         }
     }
     &__img {

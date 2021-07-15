@@ -1,15 +1,15 @@
 .form {
     display: flex;
     flex-direction: column;
-    min-width: 300px;
-    min-height: 391px;
-    padding: 40px 30px 35px 30px;
+    min-width: 302px;
+    min-height: 394px;
+    padding: 36px 30px 35px 34px;
     background-color: $form-color;
     box-shadow: 6px 6px 10px 0px rgba(0,0,0,0.15);
     border-radius: 20px;
 
     &__title {
-        margin-bottom: 31px;
+        margin-bottom: 18px;
         font-family: $ff-1;
         font-size: $form-t-fs;
         line-height: $form-t-lh;
@@ -24,7 +24,7 @@
         border: none;
         border-radius: 10px;
         &::placeholder {
-            padding-left: 10px;
+            padding-left: 6px;
             font-family: $ff-1;
             font-size: $form-i-fs;
             line-height: $form-i-lh;
@@ -38,7 +38,7 @@
         background:$form-input-bg;
         border: none;
         border-radius: 10px;
-        padding-left: 10px;
+        padding-left: 0;
         font-family: $ff-1;
         font-size: $form-i-fs;
         line-height: $form-i-lh;
@@ -50,8 +50,8 @@
         float: right;
         max-width: 170px;
         min-height: 50px;
-        margin-top: 31px;
-        margin-left: 70px;
+        margin-top: 34px;
+        margin-left: 67px;
         background-color: $form-btn-bg;
         border: none;
         border-radius: 10px;

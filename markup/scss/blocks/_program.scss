@@ -8,12 +8,11 @@
         text-align: center;
 
         @media (min-width: 425px) {
-            margin-top: 125px;
+            margin-top: 114px;
         }
     }
 
     &__descr {
-        margin-top: 25px;
         text-align: center;
     }
 }
@@ -21,7 +20,7 @@
 .cards-mt76 {
     margin-top: 26px !important;
     @media (min-width: 425px) {
-        margin-top: 76px !important;
+        margin-top: 39px !important;
     }
 }
 
@@ -37,15 +36,21 @@
         }
 
         @media (min-width: 768px) {
-            padding-top: 86%;
+            padding-top: 110%;
         }
 
         @media (min-width: 992px) {
-            padding-top: 50%;
+            padding-top: 65%;
+            width: 74%;
+        }
+
+        @media (min-width: 1400px) {
+            padding-top: 52%;
+            width: 94%;
         }
     }
     &__body {
-        padding-left: 18px;
+        padding-left: 33px;
         position: relative;
         width: 100%;
     }
@@ -60,6 +65,7 @@
         border-radius: 10px;
     }
     &__header {
+        margin-top: -5px;
         font-family: $ff-1;
         font-size: $card-h-fs;
         line-height: $card-h-lh;
@@ -77,6 +83,8 @@
     }
 
     &__descr {
+        width: 80%;
+        padding-top: 19px;
         font-family: $ff-1;
         font-size: $card-d-fs;
         line-height: $card-d-lh;
