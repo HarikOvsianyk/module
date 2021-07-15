@@ -25,17 +25,19 @@
     &__title {
         margin-top: 25px;
 
-        @media (min-width:1400px) {
+        @media (min-width: 768px) {
+            margin-top: -66px;
+        }
+
+        @media (min-width:992px) {
             margin-top: 16px;
         }
     }
     &__text {
-        margin-top: 10px;
-        @media (min-width:992px) {
-            margin-top: 30px;
-        }
+        width: 100%;
+        margin-top: 0;
 
-        @media (min-width:1400px) {
+        @media (min-width:992px) {
             margin-top: -9px;
         }
     }

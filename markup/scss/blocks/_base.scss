@@ -3,7 +3,6 @@
 .base {
     position: relative;
     width: 100%;
-    min-height: 600px;
     &::after {
         content: '';
         position: absolute;
@@ -61,7 +60,7 @@
     &__title {
         margin: 0;
         font-family: $ff-1;
-        font-size: $base-t-fs-s;
+        font-size: 40px;
         line-height: $base-t-lh;
         font-weight: $base-t-fw;
         text-transform: uppercase;
@@ -69,6 +68,7 @@
         text-align: center;
 
         @media (min-width:768px) {
+            font-size: $base-t-fs-s;
             text-align: left;
         }
 

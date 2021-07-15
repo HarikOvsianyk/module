@@ -7,6 +7,11 @@
 
     @media (min-width: 768px) {
         padding-top: 94px;
+        flex-direction: column;
+    }
+
+    @media (min-width: 992px) {
+        padding-top: 94px;
         flex-direction: row;
         flex-wrap: wrap;
     }
@@ -14,11 +19,11 @@
 .block {
     width: 100%;
 
-    @media (min-width: 768px) {
+    @media (min-width: 992px) {
         width: 50%;
     }
     &__header {
-        font-family: 'Open Sans';
+        font-family: $ff-1;
         font-size: $block-h-fs;
         line-height: $block-h-lh;
         font-weight: $block-h-fw;
@@ -31,13 +36,13 @@
         margin-top: 21px;
         padding-bottom: 20px;
         text-align: justify;
-        font-family: 'Open Sans';
+        font-family: $ff-1;
         font-size: $block-d-fs;
         line-height: $block-d-lh;
         font-weight: $block-d-fw;
         color: $block-header-color;
 
-        @media (min-width: 768px) {
+        @media (min-width: 992px) {
             margin-top: 52px;
             width: 80%;
         }
@@ -96,7 +101,7 @@
     }
     &__descr {
         text-align: left;
-        font-family: 'Open Sans';
+        font-family: $ff-1;
         font-size: $block-d-fs;
         line-height: $block-d-lh;
         font-weight: $block-d-fw;
@@ -115,7 +120,7 @@
     }
     &__descr {
         display: none;
-        font-family: 'Myriad Pro';
+        font-family: $ff-1;
         font-size: $rights-fs;
         line-height: $rights-lh;
         font-weight: $rights-fw;

@@ -15,6 +15,11 @@
         line-height: $form-t-lh;
         font-weight: $form-t-fw;
         color: $form-title-color;
+        text-transform: uppercase;
+
+        @media (min-width: 992px) {
+            text-transform: none;
+        }
     }
 
     &__input {
@@ -47,7 +52,6 @@
     }
 
     &__btn {
-        float: right;
         max-width: 170px;
         min-height: 50px;
         margin-top: 34px;

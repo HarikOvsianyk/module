@@ -62,10 +62,9 @@
         max-width: none;
         width: 100%;
         height: 100%;
-        border-radius: 10px;
     }
     &__header {
-        margin-top: -5px;
+        margin-top: 20px;
         font-family: $ff-1;
         font-size: $card-h-fs;
         line-height: $card-h-lh;
@@ -79,6 +78,7 @@
 
         @media (min-width: 992px) {
             line-height: $card-h-lh-992;
+            margin-top: -5px;
         }
     }
 
@@ -95,6 +95,7 @@
     &__link {
         display: block;
         margin-top: 12px;
+        margin-bottom: 12px;
         font-family: $ff-1;
         font-size: $card-d-fs;
         line-height: $card-d-lh;
